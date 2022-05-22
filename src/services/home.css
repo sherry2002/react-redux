@@ -1,0 +1,64 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.heading{
+    color: brown;
+}
+.slider{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.slick-next:before{
+    color: black;
+}
+.slick-prev:before{
+    color: black;
+}
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }
+.each-slide{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.text{
+    position: absolute;
+    bottom: 2%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+.prod{
+margin: 0 10px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: black;
+}
+.slide{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* .w-100{
+    height: 600px;
+} */
+  
